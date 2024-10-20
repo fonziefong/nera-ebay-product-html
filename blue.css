@@ -1,0 +1,15 @@
+/** 
+*	Stylesheet for Minimal eBay Template
+*
+*	@version 1.0 (initial release) 
+*	@date 19.01.2017
+*
+*	@copyright Finest Design 2017
+*	@web http://www.finestdesign.co.uk 
+*	@e-mail sales@finestdesign.co.uk 
+*
+*	@colour Blue
+*
+*/
+.top_nav ul li a:hover, .left-col ul li a:hover, .left-col ul li a:hover + i, .promo .item_title a:hover { color: #429fe6; }
+

@@ -1,0 +1,294 @@
+/** 
+*	Stylesheet for Minimal eBay Template
+*
+*	@version 1.0 (initial release) 
+*	@date 19.01.2017
+*
+*	@copyright Finest Design 2017
+*	@web http://www.finestdesign.co.uk 
+*	@e-mail sales@finestdesign.co.uk 
+*
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+.mobile_nav ul li a:hover,
+.promo .item_title a:hover,
+.top_nav ul li a:hover {
+  text-decoration: none
+}
+
+#fd_listing {
+  position: relative;
+  font-family: 'Source Sans Pro';
+  font-size: 17px;
+  color: #101010
+}
+
+#fd_listing h1 {
+  font-size: 28px
+}
+
+#fd_listing h3 {
+  font-size: 23px
+}
+
+.mobile_nav,
+.top_nav ul li a {
+  font-size: 18px;
+  font-weight: 700
+}
+
+#fd_listing h1,
+#fd_listing h2,
+#fd_listing h3 {
+  font-family: Raleway;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: 700
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0
+}
+
+.header .logo {
+  margin-bottom: 40px
+}
+
+.header .logo img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.mobile_nav .toggle,
+.top_nav {
+  margin: 0;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2
+}
+
+.top_nav ul {
+  margin-bottom: 0;
+  font-family: Raleway
+}
+
+.top_nav ul li {
+  padding: 30px 10px
+}
+
+.top_nav ul li a {
+  color: #333;
+  text-transform: uppercase
+}
+
+.mobile_nav {
+  color: #333
+}
+
+.mobile_nav .mobile-toggle-checkbox {
+  display: none
+}
+
+.mobile_nav .toggle {
+  cursor: pointer;
+  display: block;
+  padding: 30px 15px
+}
+
+.mobile_nav ul {
+  display: none;
+  background: rgba(255, 255, 255, 255);
+  z-index: 2
+}
+
+.mobile_nav ul li a {
+  display: block;
+  color: #333;
+  padding: 15px;
+  border-bottom: 1px solid #e2e2e2
+}
+
+.mobile_nav ul li a:hover {
+  background: #e2e2e2
+}
+
+.mobile-toggle-checkbox:checked~ul {
+  display: block
+}
+
+.menu i {
+  font-size: 24px;
+  line-height: 125px
+}
+
+.sidebar-box {
+  margin-bottom: 30px
+}
+
+.listing-title h1 {
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.left-col h3 {
+  margin-bottom: 20px
+}
+
+.left-col ul {
+  margin-bottom: 40px;
+  -webkit-overflow-scrolling: touch
+}
+
+.left-col ul li {
+  margin-bottom: 7px
+}
+
+.left-col ul li a {
+  color: #222
+}
+
+.left-col ul li a:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  content: "\f105";
+  padding-right: 5px
+}
+
+.bottom h5,
+.btn-action,
+.left-col .btn-subscribe {
+  font-family: Raleway
+}
+
+.left-col ul li a:hover,
+.left-col ul li a:hover+i {
+  color: #000;
+  text-decoration: none
+}
+
+.left-col .btn-subscribe {
+  border: 1px solid #e2e2e2;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  color: #333
+}
+
+.btn-action,
+.images {
+  border: 1px solid #e2e2e2
+}
+
+.images {
+  margin-bottom: 40px;
+  padding: 20px
+}
+
+.images .main-image {
+  display: none
+}
+
+.images input:checked+img {
+  display: block
+}
+
+.images .image-selector {
+  display: none
+}
+
+.thumbs {
+  margin-top: 30px;
+  width: 100%;
+  overflow: auto
+}
+
+.thumbs ul {
+  margin-right: -999em;
+  list-style: none;
+  white-space: nowrap;
+  padding: 0;
+  float: left
+}
+
+.thumbs ul li {
+  float: left;
+  display: inline;
+  margin: 7px
+}
+
+.thumbs .thumb {
+  max-width: 85px;
+  margin-top: 20px;
+  cursor: pointer
+}
+
+.content-box {
+  margin-bottom: 40px
+}
+
+.promo .item {
+  height: 250px
+}
+
+.promo .item_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center
+}
+
+.promo .item_picture {
+  height: 140px;
+  margin-bottom: 20px
+}
+
+.promo .item_title a {
+  color: #333
+}
+
+.promo .item_price {
+  text-align: center;
+  font-weight: 700
+}
+
+.bottom-box {
+  padding-top: 40px;
+  border-top: 1px solid #e2e2e2
+}
+
+.bottom-box .icon {
+  margin-bottom: 40px
+}
+
+.bottom i {
+  color: #010101;
+  font-size: 56px
+}
+
+.bottom h5 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: 700
+}
+
+.btn-action {
+  color: #333;
+  border-radius: 0;
+  -moz-border-radius: 0
+}
+
+.footer-text {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #666
+}
+
+.footer a {
+  color: #666
+}
